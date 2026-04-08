@@ -5,7 +5,7 @@ Lightweight benchmark script for comparing local LLM responsiveness on your own 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Backend-Ollama-000000?style=flat-square)
 ![MLX](https://img.shields.io/badge/Backend-MLX-0A84FF?style=flat-square)
-![Mode](https://img.shields.io/badge/Default-Warm--Only-2EA043?style=flat-square)
+![Mode](https://img.shields.io/badge/
 ![Output](https://img.shields.io/badge/Output-JSONL-F39C12?style=flat-square)
 
 ## Why This Exists
