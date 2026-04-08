@@ -1,0 +1,10 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Benchmark outputs
+bench_results.jsonl
+results.txt
