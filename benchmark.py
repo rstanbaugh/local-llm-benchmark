@@ -284,6 +284,7 @@ def print_summary(results: List[RunResult]) -> None:
             return
 
         print(f"\n=== {title} ===")
+        print("Time columns are in seconds (s). Throughput columns are tokens/second.")
         header_fmt = (
             "{:<12} {:<24} {:>6} {:>12} {:>12} {:>12} {:>16} {:>12} {:>12}"
         )
@@ -296,12 +297,12 @@ def print_summary(results: List[RunResult]) -> None:
                 "backend",
                 "model",
                 "runs",
-                "avg_total_s",
-                "p50_total_s",
-                "avg_ttft_s",
-                "avg_prompt_tps",
-                "avg_gen_tps",
-                "avg_load_s",
+                "avg total",
+                "p50% total",
+                "avg ttft",
+                "avg prompt tps",
+                "avg gen tps",
+                "avg load",
             )
         )
         print("-" * 126)
